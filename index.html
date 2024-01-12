@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+    <title>My Portfoilo</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      #navbar {
+        height: 60px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      #logo {
+        color: #f08804;
+        font-size: 25px;
+      }
+
+      a {
+        margin-right: 120px;
+        color: white;
+        text-decoration: none;
+      }
+
+      #footer {
+        padding: 80px 20px 80px 20px;
+        background-color: black;
+      }
+      #contact {
+        color: #f08804;
+      }
+      #no {
+        padding-left: 50px;
+        padding-top: 25px;
+      }
+
+      #area {
+        background-image: url("paper.jpg");
+        height: 1700px;
+        background-size: cover;
+      }
+
+      #h {
+        color: black;
+        text-align: center;
+        font-family: "Sofia", sans-serif;
+        padding: 5%;
+      }
+      #hh {
+        min-height: 60vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      img {
+        border: 2px solid black;
+        image-rendering: auto;
+      }
+
+      #edu {
+        font-family: "Sofia", sans-serif;
+        min-height: 60vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      #skill {
+        font-family: "Sofia", sans-serif;
+        width: 100%;
+        min-height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      .project {
+        font-family: "Sofia", sans-serif;
+        min-height: 60vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      li {
+        list-style: none;
+      }
+
+      li::before {
+        content: "\00BB                         ";
+      }
+      p {
+        max-width: 70%;
+        text-align: center;
+      }
+      #footer a {
+        color: #f08804;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <a id="logo">Sandeep Ponnada</a>
+      <a>Home</a>
+      <a>About</a>
+      <a>Skills</a>
+      <a>Project</a>
+      <a>Contact </a>
+    </div>
+
+    <div id="area">
+      <h2 id="h">
+        In three words I can sum up everything I've learned about life;) it goes
+        on.
+      </h2>
+      <div id="hh">
+        <h3 id="h" style="text-align: left">
+          Hello, <br />My name is <u>Sandeep Ponnada</u> .<br />I am from
+          <u>Nidadavolu</u>.<br />I recently graduated from
+          <u>Sri Vasavi Engineering College</u>
+          <br />with a degree in
+          <u>Computer Science and Engineering</u>
+          .
+        </h3>
+        <img
+          src="sandeep.jpg"
+          alt="Sandeep"
+          style="width: 200px; height: 300px"
+        />
+      </div>
+
+      <div id="edu">
+        <h1>Education Background</h1>
+        <p>
+          I'm pursuring B.Tech in the department of Computer Science And
+          Engineering at Sri Vasavi Engineering college, Tadepalligudem
+        </p>
+        <p>
+          Completed Intermediated in the stream of MPC at Vikas Jr college,
+          Nidadavolu
+        </p>
+        <p>And Secondary Schooling at Vignan Vidayalaya,nidadvolu</p>
+      </div>
+      <div id="skill">
+        <h1>Skill Set</h1>
+        <ul>
+          <li>Java programing language</li>
+          <li>Python programing language</li>
+          <li>SQL</li>
+          <li>Machine Learning</li>
+          <li>Web Development[Html,CSS,JS]</li>
+          <li>Django</li>
+        </ul>
+      </div>
+      <div class="project">
+        <h1>Projects</h1>
+        <h2>1 . Explore India using Django</h2>
+        <p>
+          A web application which is stands for rich cultural heritage that we
+          behold .The rich cultural heritage of India, one of the world’s oldest
+          civilizations, is an all-embracing confluence of religions, traditions
+          and customs.
+        </p>
+        <h2>2 . E-Plastic Waste Management System</h2>
+        <p>
+          A web Application which is develop a new system that reduce the
+          wastage of plastic
+        </p>
+      </div>
+    </div>
+
+    <div id="footer" style="color: white">
+      <footer class="cont">
+        <h1 id="contact">Contact</h1>
+        <div>Mobile no : <a href="tel:+919032333632">9032333632</a></div>
+        <div>
+          Mail id:
+          <a href="mailto:sandeepponnada2466@gmail.com"
+            >sandeepponnada2466@gmail.com</a
+          >
+        </div>
+        <div>
+          Instagram:
+          <a href="https://www.instagram.com/sandeepponnada9"
+            >sandeepponnada9</a
+          >
+        </div>
+        <div>
+          Github:
+          <a href="https://www.github.com/Sandeepponnada"
+            >github.com/Sandeepponnada</a
+          >
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
